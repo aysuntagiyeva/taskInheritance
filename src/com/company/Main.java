@@ -3,10 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Flour flour = new Flour("Fast food", "Margherita", "Vegetarian", 4.7);
-        Milk milk = new Milk("Dessert", "Chocolate", "Banana", 2.3);
+        Pizza pizza = new Pizza("Fast food", 4.7, "Margherita", "Vegetarian");
+        IceCream iceCream = new IceCream("Dessert", 2.3, "Chocolate", "Banana");
 
-        System.out.println("The weight of flour required for pizza is: " + flour.getKilogram());
-        System.out.println("The liter of milk required for ice cream is: " + milk.getLiter());
+        System.out.println("The name of pizza is: " + pizza.getMargheritaPizza());
+        System.out.println("The name of icecream is: " + iceCream.getBananaIceCream());
     }
 }
