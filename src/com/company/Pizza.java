@@ -1,12 +1,12 @@
 package com.company;
 
-public class Pizza extends Food{
+public class Pizza extends Flour{
 
     private String margheritaPizza;
     private String vegetarianPizza;
 
-    public Pizza(String kind, String margheritaPizza, String vegetarianPizza) {
-        super(kind);
+    public Pizza(String kind, double kilogram, String margheritaPizza, String vegetarianPizza) {
+        super(kind, kilogram);
         this.margheritaPizza = margheritaPizza;
         this.vegetarianPizza = vegetarianPizza;
     }
