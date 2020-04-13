@@ -1,11 +1,11 @@
 package com.company;
 
-public class Milk extends IceCream {
+public class Milk extends Food {
 
     private double liter;
 
-    public Milk(String kind, String chocolateIceCream, String bananaIceCream, double liter) {
-        super(kind, chocolateIceCream, bananaIceCream);
+    public Milk(String kind, double liter) {
+        super(kind);
         this.liter = liter;
     }
 
